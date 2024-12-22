@@ -115,13 +115,14 @@ Navigate to the project directory and open the `index.html` file in your preferr
 - **Localization**: Add support for different languages or layouts by allowing the user to choose a keyboard layout.
 - **Accessibility**: Improve accessibility by adding features like screen reader support or keyboard navigation.
 
-## 📸 Screenshot
-**Before Key Press**
+## 📸 Screenshots
+### Before Key Press
 ![image](https://github.com/user-attachments/assets/5fece64e-5ab6-4380-83e6-713ccc11a51c)
-**After Key Press**
+
+### After Key Press
 ![image](https://github.com/user-attachments/assets/592921cc-aea6-477c-8712-5fc22d83682f)
 ![image](https://github.com/user-attachments/assets/dbb7f7a4-7b24-4330-8961-90c77471020d)
 ![image](https://github.com/user-attachments/assets/bad77a5c-ba15-494a-a9f6-eba34d267fb8)
-
+*Displays the key, keycode, and code dynamically in a table when a key is pressed.*
 
 
