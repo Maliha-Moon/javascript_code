@@ -1,5 +1,5 @@
 # KeyCodes Event Listener
-## Overview
+## 🔍 Overview
 A simple web application that displays information about a keypress event, including the key, its keycode, and its code value. This project is useful for developers who want to learn about or debug keyboard events in JavaScript.
 
 ## 🚀 Features
@@ -105,7 +105,7 @@ Navigate to the project directory and open the `index.html` file in your preferr
 - Press any key on your keyboard.
 - The table will dynamically display the key, keycode, and code for the pressed key.
 
-## 🚀 Improvements
+## 📈 Improvements
 
 - **Add Styling for Different Key Types**: Differentiate between special keys (e.g., Shift, Enter) and regular keys by applying distinct styles or colors.
 - **Support for Other Key Events**: Extend the app to support more key events like `keyup` or `keypress` and display their corresponding details.
@@ -114,4 +114,14 @@ Navigate to the project directory and open the `index.html` file in your preferr
 - **Support for Non-Printable Keys**: Handle non-printable keys (e.g., Ctrl, Alt) and display more user-friendly labels for them.
 - **Localization**: Add support for different languages or layouts by allowing the user to choose a keyboard layout.
 - **Accessibility**: Improve accessibility by adding features like screen reader support or keyboard navigation.
+
+## 📸 Screenshot
+**Before Key Press**
+![image](https://github.com/user-attachments/assets/5fece64e-5ab6-4380-83e6-713ccc11a51c)
+**After Key Press**
+![image](https://github.com/user-attachments/assets/592921cc-aea6-477c-8712-5fc22d83682f)
+![image](https://github.com/user-attachments/assets/dbb7f7a4-7b24-4330-8961-90c77471020d)
+![image](https://github.com/user-attachments/assets/bad77a5c-ba15-494a-a9f6-eba34d267fb8)
+
+
 
