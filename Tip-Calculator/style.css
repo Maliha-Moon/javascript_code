@@ -1,0 +1,175 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Common CSS */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    line-height: 1rem;
+    margin: 0px;
+}
+
+body {
+    background: #201e2f;
+    font-family: "Itim", cursive;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top_body {
+    width: 90%;
+    max-width: 600px;
+}
+
+.logo_area,
+#form,
+.total-per-person {
+    padding: 25px 35px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Logo style */
+.logo_area {
+    background: #00feb5;
+    text-align: center;
+}
+
+.logo_area h2 {
+    color: #2d3436;
+}
+
+/* Form area style */
+#form {
+    background: #2c3e50;
+}
+
+#form label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#form input {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 12px 15px;
+    border: 0;
+    border-radius: 25px;
+    font-family: "Itim", cursive;
+    background: #34495e;
+    width: 100%;
+    color: #fff;
+}
+
+.people-area {
+    margin-top: 20px;
+}
+
+.people-area p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons ul {
+    list-style: none;
+    display: flex;
+}
+
+.buttons ul li {
+    font-size: 30px;
+}
+
+.minus {
+    background: #e74c3c;
+}
+
+.plus {
+    background: #2ecc71;
+}
+
+.minus,
+.plus {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 3px;
+}
+
+.No-people{
+    margin: 5px 20px 0;
+}
+
+#calculator{
+    background: #a29bfe;
+    border: 0;
+    padding: 10px 35px;
+    font-family: "Itim", cursive;
+    font-size: 20px;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#calculator:hover{
+    background: #6c5cef;
+}
+/* Summary area style */
+.total-per-person {
+    background: #121617;
+    margin-bottom: 0px;
+    /* display: none; */
+}
+
+.total-per-person div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-per-person hr{
+    border: 2px dashed #ddd;
+    margin-bottom: 10px;
+}
+
+.total-per-person h2{
+    color: #00feb5;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+.total-per-person h3, h4{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
