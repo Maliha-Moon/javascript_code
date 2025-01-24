@@ -17,17 +17,17 @@
 
         <div id="form">
             <label for="totalBill">Total Bill</label>
-            <input type="text" id="totalBill" placeholder="Enter your total bill">
+            <input type="text" id="totalBill" placeholder="Enter your total bill" autocomplete="off">
 
             <label for="tip">Tip %</label>
-            <input type="text" id="tip" placeholder="Expected tip">
+            <input type="text" id="tip" placeholder="Expected tip" autocomplete="off">
 
             <div class="people-area">
               <p>People</p>
                 <div class="buttons">
                     <ul>
                         <li class="minus">-</li>
-                        <li class="No-people">0</li>
+                        <li class="No-people">1</li>
                         <li class="plus">+</li>
                     </ul>
                     <button id="calculator">Calculator</button>
@@ -39,16 +39,16 @@
             <h2>SUMMARY</h2>
             <div>
                 <h3>Total Bill</h3>
-                <h4>$ <span id="totalBill">0</span></h4>
+                <h4>$ <span id="display_totalBill">0</span></h4>
             </div>
 
             <div>
                 <h3>Tip Amount</h3>
-                <h4>$ <span id="tipAmount">0</span></h4>
+                <h4>$ <span id="display_tipAmount">0</span></h4>
             </div>
 
             <div>
-                <h3>Tax</h3>
+                <h3>Tax 5%</h3>
                 <h4>$ <span id="tax">0</span></h4>
             </div>
             <hr>
