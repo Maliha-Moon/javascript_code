@@ -27,7 +27,7 @@ p {
 }
 
 body {
-    background: #201e2f;
+    background: linear-gradient(135deg, #081631, #280331);
     font-family: "Itim", cursive;
     color: #fff;
     display: flex;
