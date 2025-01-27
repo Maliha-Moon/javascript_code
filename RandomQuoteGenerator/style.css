@@ -64,3 +64,35 @@ body {
     margin: 10px auto 0;
     cursor: pointer;
 }
+
+.features{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.features ul{
+    display: flex;
+}
+
+.features ul li{
+    list-style: none;
+    padding: 10px;
+    margin: 0 5px;
+    height: 47px;
+    width: 47px;
+    color: #262626;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid #262626;
+    transition: all 0.3s ease;
+}
+
+.features ul li:hover{
+    color: #fff;
+    background: #5372F0;
+}
