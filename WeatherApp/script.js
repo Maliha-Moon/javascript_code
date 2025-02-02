@@ -1,7 +1,6 @@
-// 0f81a598d2f2ceddd0a2241e85196c89
 //https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
 
-const apiKeys = "0f81a598d2f2ceddd0a2241e85196c89"
+const apiKeys = "";
 const apiURL = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
 const searchInput = document.querySelector('.search-input');
