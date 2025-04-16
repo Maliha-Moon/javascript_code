@@ -1,1 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation</title>
+
+    <style>
+      body {
+        padding: 10px 50px;
+      }
+
+      .header {
+        background-image: linear-gradient(
+          to left,
+          rgba(116, 235, 213, 0.6),
+          rgba(142, 158, 230, 0.6)
+        );
+        width: 100%;
+        height: 80px;
+        text-align: center;
+      }
+      .formdesign {
+        font-size: 20px;
+      }
+
+      .formdesign input {
+        width: 50%;
+        padding: 12px 20px;
+        border: 1px solid blue;
+        margin: 14px;
+        border-radius: 4px;
+        font-size: 15px;
+      }
+
+      .errormsg {
+        color: red;
+      }
+
+      .btn {
+        border-radius: 10px;
+        width: 100px;
+        height: 50px;
+        font-size: 20px;
+        background: linear-gradient(
+          to left,
+          rgba(103, 236, 211, 0.6),
+          rgba(125, 144, 231, 0.6)
+        );
+        /* color: white; */
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Registration Form</h1>
+    </div>
+
+    <!-- <form name="myForm" onsubmit="return validation()"> -->
+    <form name="myForm">
+      <div class="formdesign">
+        <label>Name:</label>
+        <input
+          type="text"
+          name="fname"
+          id="name"
+          placeholder="Username"
+          required
+          autocomplete="off"
+        />
+        <span class="errormsg"><b></b></span>
+      </div>
+
+      <div class="formdesign">
+        Email:
+        <input
+          type="email"
+          name="femail"
+          id="email"
+          placeholder="Email"
+          required
+          autocomplete="off"
+        />
+        <span class="errormsg"><b></b></span>
+      </div>
+
+      <div class="formdesign">
+        Phone:
+        <input
+          type="number"
+          name="fphone"
+          id="phone"
+          placeholder="Phone number"
+          required
+          autocomplete="off"
+        />
+        <span class="errormsg"><b></b></span>
+      </div>
+
+      <div class="formdesign">
+        Password:
+        <input
+          type="password"
+          name="fpass"
+          id="pass"
+          placeholder="password"
+          required
+          autocomplete="off"
+        />
+        <span class="errormsg"><b></b></span>
+      </div>
+
+      <div class="formdesign">
+        Confirm Password:
+        <input
+          type="password"
+          name="fcpass"
+          id="cpass"
+          placeholder="confirm password"
+          required
+          autocomplete="off"
+        />
+        <span class="errormsg"><b></b></span>
+      </div>
+
+      <button class="btn">Submit</button>
+    </form>
+  </body>
+
+  <script src="script.js"></script>
+</html>
 
