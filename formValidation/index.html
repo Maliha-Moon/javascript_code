@@ -60,16 +60,17 @@
     <!-- <form name="myForm" onsubmit="return validation()"> -->
     <form name="myForm">
       <div class="formdesign">
-        <label>Name:</label>
+        <label>Username:</label>
         <input
           type="text"
           name="fname"
+          class="form-control"
           id="name"
           placeholder="Username"
           required
           autocomplete="off"
         />
-        <span class="errormsg"><b></b></span>
+        <b><span class="errormsg" id="nameErr"></span></b>
       </div>
 
       <div class="formdesign">
@@ -78,11 +79,12 @@
           type="email"
           name="femail"
           id="email"
+          class="form-control"
           placeholder="Email"
           required
           autocomplete="off"
         />
-        <span class="errormsg"><b></b></span>
+        <b><span class="errormsg" id="emailErr"></span></b>
       </div>
 
       <div class="formdesign">
@@ -91,11 +93,12 @@
           type="number"
           name="fphone"
           id="phone"
+          class="form-control"
           placeholder="Phone number"
           required
           autocomplete="off"
         />
-        <span class="errormsg"><b></b></span>
+        <b><span class="errormsg" id="phoneErr"></span></b>
       </div>
 
       <div class="formdesign">
@@ -104,11 +107,12 @@
           type="password"
           name="fpass"
           id="pass"
+          class="form-control"
           placeholder="password"
           required
           autocomplete="off"
         />
-        <span class="errormsg"><b></b></span>
+        <b><span class="errormsg" id="passErr"></span></b>
       </div>
 
       <div class="formdesign">
@@ -117,17 +121,17 @@
           type="password"
           name="fcpass"
           id="cpass"
+          class="form-control"
           placeholder="confirm password"
           required
           autocomplete="off"
         />
-        <span class="errormsg"><b></b></span>
+        <b><span class="errormsg" id="CpassErr"></span></b>
       </div>
 
-      <button class="btn">Submit</button>
+      <button class="btn" type="button">Submit</button>
     </form>
   </body>
 
   <script src="script.js"></script>
 </html>
-
